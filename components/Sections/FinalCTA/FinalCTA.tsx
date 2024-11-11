@@ -12,8 +12,7 @@ export default function FinalCTA() {
           {`I'm on 𝕏`}
         </p>
         <p className="mt-2 mb-4 max-w-sm text-center text-neutral-500 mx-6">
-          I mainly tweet about Software Development and my way to create a
-          Software Studio.
+          I would love to Collaborate on Software Development topics.  
         </p>
         <Link href={config.links.x}>
           <Button size="lg">
@@ -22,11 +21,11 @@ export default function FinalCTA() {
           </Button>
         </Link>
       </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-10 items-start mx-6">
+      {/* <div className="flex flex-col md:flex-row justify-center md:gap-10 items-start mx-6">
         {config.tweets.map((tweetId, index) => (
           <Tweet key={index} id={tweetId} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function Logo({ size, withText }: LogoProps) {
     >
       <div className={cn("relative", size)}>
         <Image
-          src="/logo.png"
+          src="/temp.png"
           alt="Logo TempTime  "
           fill
           priority
