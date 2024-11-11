@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Agency Template",
+  title: "TempTime",
   description: "We create pleaseant experiences for your customers."
 };
 
